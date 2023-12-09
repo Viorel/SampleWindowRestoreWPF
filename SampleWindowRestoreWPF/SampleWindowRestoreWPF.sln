@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWindowRestoreWPF", "SampleWindowRestoreWPF.csproj", "{B7F89287-4B89-4EBA-9ABB-F81E6B10D6DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7F89287-4B89-4EBA-9ABB-F81E6B10D6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F89287-4B89-4EBA-9ABB-F81E6B10D6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F89287-4B89-4EBA-9ABB-F81E6B10D6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F89287-4B89-4EBA-9ABB-F81E6B10D6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8B0D690-73DC-4E17-83E9-B4050B025182}
+	EndGlobalSection
+EndGlobal

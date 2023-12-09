@@ -1,0 +1,18 @@
+﻿<Window x:Class="SampleWindowRestoreWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SampleWindowRestoreWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500"
+        SourceInitialized="Window_SourceInitialized" Closing="Window_Closing">
+    <Grid>
+        <TextBlock TextAlignment="Center" Padding="70" TextWrapping="Wrap">
+            This sample demonstrates an application 
+            that saves and restores the position of the main window.<LineBreak/>
+            <LineBreak/>
+            Multiple monitors are supported. <LineBreak/>
+        </TextBlock>
+    </Grid>
+</Window>
