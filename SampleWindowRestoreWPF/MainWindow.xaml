@@ -8,9 +8,10 @@
         Title="MainWindow" Height="300" Width="500"
         SourceInitialized="Window_SourceInitialized" Closing="Window_Closing">
     <Grid>
-        <TextBlock TextAlignment="Center" Padding="70" TextWrapping="Wrap">
+        <TextBlock TextAlignment="Center" Padding="10" TextWrapping="Wrap" Width="374" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center">
             This sample demonstrates an application 
-            that saves and restores the position of the main window.<LineBreak/>
+            that saves and restores the position, size
+            and maximisation state of the main window.<LineBreak/>
             <LineBreak/>
             Multiple monitors are supported. <LineBreak/>
         </TextBlock>
