@@ -71,6 +71,7 @@ namespace SampleWindowRestoreWPF
         }
 
         [DllImport( "user32", SetLastError = true )]
+        [DefaultDllImportSearchPathsAttribute( DllImportSearchPath.System32 )]
         static extern IntPtr MonitorFromPoint( POINT pt, Int32 dwFlags );
 
         const Int32 MONITOR_DEFAULTTONULL = 0;
